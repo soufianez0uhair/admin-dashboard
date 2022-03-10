@@ -1,1 +1,2 @@
 # admin-dashboard
+This project is a test for my css's grid and general properties use and knowledge. I tried to use css grid as possible because it's my main focus for this project and using flexbox if it was a more affordable choice. This project convinced me that css grid isn't here to replace flexbox.. It's here to add some shiny lights to the layout party!
