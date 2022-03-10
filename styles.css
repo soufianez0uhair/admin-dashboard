@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body {
-    height: 100vh;
+    min-height: 100vh;
     font-family: 'Roboto', sans-serif;
 }
 .container {
@@ -89,6 +89,38 @@ body {
 .sidebar {
     grid-column: 1 / 2;
     grid-row: 1 / -1;
+    background: #EAB308;
+    display: grid;
+    grid-template-rows: 60px 1fr 1fr 60px;
+    padding-left: 20px;
+    color: #fff;
+    gap: 30px;
+}
+.logo {
+    grid-row: 1 / 2;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+.sidebar-tools-1 {
+    grid-row: 2 / 3;
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+}
+.sidebar-tools-2 {
+    grid-row: 3 / 4;
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+}
+.tool {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 18px;
+}
+.fa-solid {
+    font-size: 20px;
 }
 .main-content {
     grid-column: 2 / -1;
